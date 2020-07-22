@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Redirect, Route } from "react-router-dom";
 import AOS from 'aos';
 import Home from "./pages/Home";
 import Bio from "./pages/Bio";
@@ -60,7 +60,7 @@ class App extends React.Component {
               <Route extact path="/portfolio/giphy" component={giphy} />
               <Route exact path="/experience" component={Experience} />
               <Route exact path="/contact" component={Contact} />
-              <Route component={NoMatch} />
+              <Redirect exact from="/" component={NoMatch} />
             {/* </Switch> */}
           </div>
         // </HashRouter>
