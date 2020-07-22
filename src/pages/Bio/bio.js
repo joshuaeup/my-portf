@@ -178,7 +178,7 @@ render() {
                     </div>
                   </div>
                   <div className={`col-lg-${this.state.adjustCol} d-flex justify-content-center`}>
-                    <img className="bioProfileImg" alt="Bio Profile" src={profilePhoto} />
+                    <img className="bioProfileImg" alt="Bio Profile" src="{profilePhoto}" />
                   </div>
                 </div>
                 <div className="row bioGridRow d-flex justify-content-center" >
@@ -214,7 +214,7 @@ render() {
                   <div className="col-sm-4 col-md-4 col-lg-4 d-flex justify-content-center d-flex align-items-center">
                     <div className="bioExperiencePhotoContainer">
                       <h1 className="bioExperienceTitleOnImg text-center">My Brain</h1>
-                      <img className="bioBrainImg" alt="Bio Profile" src={profileBrain} />
+                      <img className="bioBrainImg" alt="Bio Profile" src="{profileBrain}" />
                     </div>
                   </div>
                   <div className="col-sm-4 col-md-4 col-lg-4 d-flex justify-content-center d-flex align-items-center bioExperienceTextContainer">
@@ -243,7 +243,7 @@ render() {
                   <div className={`col-lg-${this.state.adjustCol} d-flex justify-content-center d-flex align-items-center `}>
                     <div className="bioExperiencePhotoContainer">
                       <h1 className="bioFreeTimeTitle text-center">Free Time</h1>
-                      <img className="bioClockImg" alt="Bio Profile" src={profileClock} />
+                      <img className="bioClockImg" alt="Bio Profile" src="{profileClock}" />
                     </div>
                   </div>
                 </div>
@@ -259,7 +259,7 @@ render() {
                     <div className={`skillsBody collapse ${this.state.collapse}`} id="collapseResume" data-parent="#accordion">
                       <div className="row">
                           <div className="col-sm-12 col-md-12 col-lg-12">
-                            <img id="resumeImg" alt="resume" src={resume}/>
+                            <img id="resumeImg" alt="resume" src="{resume}"/>
                           </div>
                       </div>
                     </div>
