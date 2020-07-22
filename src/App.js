@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 import AOS from 'aos';
 import Home from "./pages/Home";
 import Bio from "./pages/Bio";
@@ -46,24 +46,24 @@ class App extends React.Component {
 
   render() {
       return (
-        <Router>
+        <HashRouter basename="/my-port/">
           <div>
             <Switch>
-              <Route exact path="/my-port/" component={Home} />
-              {/* <Route exact path="/my-port/bio" component={Bio} /> */}
+              <Route exact path="/" component={Home} />
+              {/* <Route exact path="/bio" component={Bio} /> */}
               {/* <Route exact path={process.env.PUBLIC_URL + "/bio"} component={Bio} /> */}
-              <Route exact path={process.env.PUBLIC_URL + "/my-port/bio"} component={Bio} />
-              <Route exact path="/my-port/portfolio" component={Portfolio} />
-              <Route exact path="/my-port/portfolio/mock-one" component={mockOne} />
-              <Route exact path="/my-port/portfolio/valweb" component={valWeb} />
-              <Route exact path="/my-port/portfolio/tipCalculator" component={tipCalculator} />
-              <Route extact path="/my-port/portfolio/giphy" component={giphy} />
-              <Route exact path="/my-port/experience" component={Experience} />
-              <Route exact path="/my-port/contact" component={Contact} />
+              <Route exact path={process.env.PUBLIC_URL + "/bio"} component={Bio} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/portfolio/mock-one" component={mockOne} />
+              <Route exact path="/portfolio/valweb" component={valWeb} />
+              <Route exact path="/portfolio/tipCalculator" component={tipCalculator} />
+              <Route extact path="/portfolio/giphy" component={giphy} />
+              <Route exact path="/experience" component={Experience} />
+              <Route exact path="/contact" component={Contact} />
               <Route component={NoMatch} />
             </Switch>
           </div>
-        </Router>
+        </HashRouter>
       );
     }
   }
