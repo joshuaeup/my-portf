@@ -49,9 +49,10 @@ class App extends React.Component {
         <Router>
           <div>
             <Switch>
-              <Route exact path="/my-port/" component={Bio} />
-              <Route exact path="/my-port/bio" component={Home} />
-              {/* <Route exact path="/bio" component={NoMatch} /> */}
+              <Route exact path="/my-port/" component={Home} />
+              {/* <Route exact path="/my-port/bio" component={Bio} /> */}
+              <Route exact path={process.env.PUBLIC_URL + "/bio"} component={Bio} />
+              {/* <Route exact path={process.env.PUBLIC_URL + "/my-port/bio"} component={Bio} /> */}
               <Route exact path="/my-port/portfolio" component={Portfolio} />
               <Route exact path="/my-port/portfolio/mock-one" component={mockOne} />
               <Route exact path="/my-port/portfolio/valweb" component={valWeb} />
