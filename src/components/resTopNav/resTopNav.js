@@ -14,35 +14,35 @@ class resTopNav extends React.Component {
         return (
         <div id="responsiveTopNav" className="d-flex justify-content-center">
             <div className="responsiveTopNavHoverHome">
-                <Link to="/my-port/">
+                <Link to="/">
                     <h3 className="justify-content-center align-items-center topNavText">
                             Home
                     </h3>
                 </Link>
             </div>
             <div className="responsiveTopNavHoverProfile">
-                <Link to="/my-port/bio">
+                <Link to="/bio">
                     <h3 className="justify-content-center align-items-center topNavText">
                             Profile
                     </h3>
                 </Link>
             </div>
             <div className="responsiveTopNavHoverProjects">
-                <Link to="/my-port/portfolio">
+                <Link to="/portfolio">
                     <h3 className="justify-content-center align-items-center topNavText">
                             Projects
                     </h3>
                 </Link>
             </div>
             <div className="responsiveTopNavHoverSkills">
-                <Link to="/my-port/experience">
+                <Link to="/experience">
                     <h3 className="justify-content-center align-items-center topNavText">
                             Skills
                     </h3>
                 </Link>
             </div>
             <div className="responsiveTopNavHoverContact">
-                <Link to="/my-port/contact">
+                <Link to="/contact">
                     <h3 className="justify-content-center align-items-center topNavText">
                             Contact
                     </h3>
