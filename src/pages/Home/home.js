@@ -47,7 +47,6 @@ class Home extends React.Component {
               </Link>
             </div>
           </div>
-          
           <TopNav />
         </div>
   )}

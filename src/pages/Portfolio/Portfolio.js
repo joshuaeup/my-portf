@@ -118,7 +118,7 @@ class Portfolio extends React.Component {
                 
               </div>
             </div>
-            <Footer top={this.state.topOfPage}/>
+            <Footer/>
           </div>
         </div>
       </div>      

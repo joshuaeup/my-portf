@@ -40,10 +40,8 @@ class Footer extends React.Component {
                     </Link>
                 </div>
                   </div>
-                  {/* <a id="topOfPageArrowContainer" className="ins-ic rounded-circle " href={this.props.top}>
-                        <i id="topOfPageArrow" className="fas fa-angle-up align-top"></i>
-                    </a> */}
-                    <div id="topOfPageArrowContainer" className="d-flex justify-content-center">
+
+                    {/* <div id="topOfPageArrowContainer" className="d-flex justify-content-center">
                     <a  id="topOfPageArrow" className="ins-ic rounded-circle " href={this.props.top}>
                         <i className="fas fa-angle-up align-top"></i>
                         </a>
@@ -51,7 +49,7 @@ class Footer extends React.Component {
                         <circle cx="50%" cy="55%" r="50%" stroke="white" strokeWidth="3" fill="white" />
                         Sorry, your browser does not support inline SVG.  
                         </svg> 
-                    </div>
+                    </div> */}
                     
             </footer>
         )

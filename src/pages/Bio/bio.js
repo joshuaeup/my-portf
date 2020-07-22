@@ -267,7 +267,7 @@ render() {
                 </div>
               </div>
               
-            <Footer top={this.state.topOfPage}/>
+            <Footer/>
             </div>
           </div>
         </div>
