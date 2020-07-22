@@ -1,0 +1,218 @@
+.fullWidthRow {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+.homeNavContainer {
+    padding: 0;
+    background: white;
+}
+
+#homeMainContainer {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh; 
+    overflow: hidden;
+    padding: 0;
+    background: url("../../assets/homePhoto.jpg")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+#viewWorkBtn {
+    border: none;
+    color: white;
+    padding: 8px 13px 8px 13px;
+    font-size:3vh;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    border-radius: 5vh;
+    background: #3a506b;
+    border: solid white 3px;
+}
+
+
+.customBox {
+    padding: 10px;
+    font-size:7vh;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    color: white;
+    border: solid white 3px;
+    background: #3a506b;
+
+}
+
+
+
+
+#myVideoContainer {
+   min-width: 100%; 
+   min-height: 100%; 
+   /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+   width: auto;
+   height: auto;
+ 
+   /* Center the video */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+
+html, body {
+    height:auto;
+	width:100vw;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.mainHomeContainer {
+    position: absolute;
+    top: 15%;
+    margin: auto;
+    width: 100%;
+}
+
+.btnCustomBox {
+    margin-bottom: 2vh;
+}
+
+
+#viewWorkBtn:hover {
+    cursor: pointer;
+}
+
+.customImg {
+    height: 35vh;
+    width: 35vw;
+}
+
+.customCarousel {
+    height:40vh;
+    
+}
+.buttonContainer {
+    height: 50vh;
+}
+
+
+.slideShowImg {
+    height: 30vh;
+    width: 55vh;
+}
+
+
+
+
+.specContainer {
+    opacity: 0.8;
+    z-index: 2;
+    font-size: 8vh;
+    color: white;
+    font-weight: bolder;
+    padding:0vh 4vh 2vh 4vh;
+}
+
+
+.nameContainer {
+    width: 20vw;
+    padding: 2% 75px 0px 2%;
+}
+
+.titleContainer {
+    width: 25vw;
+}
+
+#name {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: serif
+}
+
+.center {
+    text-align: center;
+}
+
+.customWidth {
+    width: 15%;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+
+
+#homeSpecialitiesContainer {
+    margin-bottom: 5vh;
+    padding: 5vh 5vh 5vh 5vh;
+}
+
+#specialtyTitle {
+    text-align: center;
+}
+
+#specialitiesInnerContainer {
+    width: 100%;
+}
+
+
+#focusIcon {
+    font-size: 10vh;
+}
+
+#focusText {
+    text-align: center;
+    font-size: 4vh;
+}
+
+#focusIconContainer {
+    padding: 5vh 2vh 5vh 2vh;
+    background: blue;
+    border-radius: 10vh;
+    text-align: center;
+}
+
+.FSWD {
+    margin-top:18px;
+}
+
+.homeFont {
+    font-size: 7vh;
+}
+
+@media only screen and (max-width: 500px) {
+    .customImg {
+        width: 60vw;
+    }
+
+    .homeFont {
+        font-size: 5vh;
+    }
+
+    .specContainer {
+        padding: 0vh 4vh 2vh 4vh;
+    }
+}
