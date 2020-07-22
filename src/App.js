@@ -49,16 +49,16 @@ class App extends React.Component {
         <Router>
           <div>
             <Switch>
-              <Route exact path="/myport/" component={Home} />
-              <Route exact path="/myport/bio" component={Bio} />
+              <Route exact path="/my-port/" component={Home} />
+              <Route exact path="/my-port/bio" component={Bio} />
               {/* <Route exact path="/bio" component={NoMatch} /> */}
-              <Route exact path="/myport/portfolio" component={Portfolio} />
-              <Route exact path="/myport/portfolio/mock-one" component={mockOne} />
-              <Route exact path="/myport/portfolio/valweb" component={valWeb} />
-              <Route exact path="/myport/portfolio/tipCalculator" component={tipCalculator} />
-              <Route extact path="/myport/portfolio/giphy" component={giphy} />
-              <Route exact path="/myport/experience" component={Experience} />
-              <Route exact path="/myport/contact" component={Contact} />
+              <Route exact path="/my-port/portfolio" component={Portfolio} />
+              <Route exact path="/my-port/portfolio/mock-one" component={mockOne} />
+              <Route exact path="/my-port/portfolio/valweb" component={valWeb} />
+              <Route exact path="/my-port/portfolio/tipCalculator" component={tipCalculator} />
+              <Route extact path="/my-port/portfolio/giphy" component={giphy} />
+              <Route exact path="/my-port/experience" component={Experience} />
+              <Route exact path="/my-port/contact" component={Contact} />
               <Route component={NoMatch} />
             </Switch>
           </div>
