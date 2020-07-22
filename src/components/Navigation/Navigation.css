@@ -1,0 +1,100 @@
+.dynamicButtonContainer {
+    position: fixed;
+    bottom: 5vh;
+    /* padding-top: 5vh; */
+}
+
+
+.startThumbnail {
+    /* padding: 6% 6% 11% 6%; */
+    border-radius: 50%;
+    color: white;
+}
+
+
+.customIcon {
+    font-size: 9vh;
+    color: white;
+    /* padding: 50px; */
+}
+
+.customIcon:hover {
+    text-decoration: none; 
+}
+
+#bioBtn, #homeBtn {
+    background: #008fb3;
+    height: 20vh;
+    width: 13vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#portBtn, #contactBtn {
+    background: #00a3cc;
+    height: 20vh;
+    width: 13vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#bioBtn:hover, #portBtn:hover, #contactBtn:hover, #iconImage:hover, #homeBtn:hover{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    cursor: pointer;
+    background: #66e0ff;
+    border: solid #00b8e6 5px;
+}
+#iconImage {
+    height: 20vh;
+    width: auto;
+    
+    border-radius: 50%;
+    color: white;
+}
+
+#customMainNavSetting {
+    padding-right: 4vh;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #iconImage {
+        height: 11vh;
+    }
+
+    #bioBtn, #homeBtn {
+        height: 10vh;
+        width: 16vw;
+    }
+    
+    #portBtn, #contactBtn {
+        height: 10vh;
+        width: 16vw
+    }
+
+    .customIcon {
+        font-size: 6vh;
+    }
+
+    #customMainNavSetting {
+        padding-right: 0;
+    }
+
+    .customNavSetting {
+        /* margin-top: 50px; */
+    }
+}
+
+#bioBtn {
+    position: relative;
+}
+
+.testBtn {
+    position: relative;
+    top: 0;
+}

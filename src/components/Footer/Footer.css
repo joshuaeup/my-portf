@@ -1,0 +1,146 @@
+#mainFooterContainer {
+    position: relative;
+    /* bottom: 0;
+    width: 100%; */
+    background: white;
+    padding: 3vh 15vh 1vh 15vh;
+}
+
+#topOfPageArrowContainer {
+   
+}
+
+#topOfPageArrowContainer {
+    position: absolute;
+    text-align: center;
+    align-self: auto;
+    font-size: 2vh;
+    padding: 1vh;
+    left: 45%;
+    right: 55%;
+    top: -4vh;
+    width: 8vw;
+    font-size: 5vh;
+}
+
+#topOfPageArrowContainer:hover {
+    top: -5vh;
+    -webkit-transition: top 0.4s ease-out;
+    -moz-transition: top 0.4s ease-out;
+    -o-transition: top 0.4s ease-out;
+    transition: top 0.4s ease-out;
+}
+
+#topOfPageArrow {
+    position: absolute;
+    top: 0;
+    padding-bottom: 0vh;
+    font-weight: bold;
+    color: black;
+    z-index: 2;
+}
+
+#topOfPageArrowCircle {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#contactFooterBtnContainer {
+    z-index: 1;
+}
+
+#contactFooterBtn {
+    padding: 1vh;
+    background: transparent;
+    height: auto;
+    text-transform: uppercase;
+    background: #00a3cc;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+#contactFooterBtn:hover {
+    cursor: pointer;
+    background: #0dcfff;
+}
+
+#waterMark {
+    margin: auto;
+}
+
+.textCenter {
+    margin: 0 1vh 0 1vh;
+}
+
+
+@media only screen and (max-width: 883px) {
+    #mainFooterContainer {
+        padding: 3vh 10vh 1vh 10vh;
+    }
+
+    #topOfPageArrowContainer {
+        width: 9vw;
+        font-size: 5vh;
+    }
+}
+
+
+@media only screen and (max-width: 746px) {
+    #mainFooterContainer {
+        padding: 3vh 7vh 1vh 7vh;
+    }
+
+    #topOfPageArrowContainer {
+        width: 9vw;
+        font-size: 4vh;
+    }
+}
+
+@media only screen and (max-width: 658px) {
+    #mainFooterContainer {
+        padding: 3vh 2vh 1vh 2vh;
+    }
+
+    #topOfPageArrowContainer {
+        width: 9vw;
+        font-size: 4vh;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #mainFooterContainer {
+        font-size: 12px;
+    }
+
+    #topOfPageArrowContainer {
+        width: 12vw;
+        font-size: 4vh;
+    }
+}
+
+
+@media only screen and (max-width: 467px) {
+    #mainFooterContainer {
+        font-size: 9px;
+    }
+
+    #topOfPageArrowContainer {
+        width: 13vw;
+        font-size: 4vh;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    #mainFooterContainer {
+        font-size: 8px;
+    }
+
+    #topOfPageArrowContainer {
+        width: 17vw;
+        left: 43%;
+        right: 57%;
+    }
+}

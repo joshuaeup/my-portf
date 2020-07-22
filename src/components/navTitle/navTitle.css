@@ -1,0 +1,36 @@
+.upperCase {
+    color: white;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+    1px 1px 0 #000;
+    /* text-transform: uppercase;     */
+}
+
+.sideLine {
+    margin: auto 10vh auto 10vh;
+    height: 5px;
+    width: 40%;
+    background: white;
+  }  
+
+#portBannerContainer {
+    background: #3a3a3a;
+    padding: 2vh;
+    text-align: center;
+    font-family: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+
+
+@media only screen and (max-width: 991px) {
+    .sideLine {
+        display: none;
+    }
+
+    #portBannerContainer {
+    }
+
+}

@@ -1,6 +1,6 @@
 import React from "react";
-// import TopNav from "../../components/topNav"
-// import { Link } from "react-router-dom";
+import TopNav from "../../components/topNav"
+import { Link } from "react-router-dom";
 require("./Home.css");
 
 class Home extends React.Component {
@@ -48,7 +48,7 @@ class Home extends React.Component {
             </div>
           </div>
           
-          {/* <TopNav /> */}
+          <TopNav />
         </div>
   )}
 };

@@ -1,0 +1,70 @@
+.mainContainer {
+  height: 100vh;
+}
+
+.customRow {
+  height: 100vh;
+}
+
+#portCardContainer {
+  min-height: 80vh;
+  z-index: 1;
+  padding: 6vh 12vh 6vh 12vh;
+}
+
+
+
+#portCard {
+  z-index: 5;
+  margin: 2vh 2% 2vh 2%;
+  padding: 1vh;
+  box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  color: black;
+}
+
+#portCard:hover {
+  opacity: 1;
+}
+
+
+.projectImg {
+  height: 20vh;
+}
+
+.portCardBody {
+  padding: 1vh 1vh 1% 1vh;
+}
+
+.changeOpacity:hover {
+  cursor: pointer;
+  
+}
+
+#portColArrow {
+  color: #555454;
+  position: absolute;
+  right: 2vh;
+  font-size: 4vh;
+  bottom: 1vh;
+}
+
+
+.projectName, .projectType {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 465px) {
+  #portCardContainer {
+    padding: 6vh 8vh 6vh 8vh;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  #portCardContainer {
+    padding: 6vh 3vh 6vh 3vh;
+  }
+}

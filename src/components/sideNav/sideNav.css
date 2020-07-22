@@ -1,0 +1,237 @@
+.sideNavMainContainer {
+    /* height: auto; */
+    width: 100vw;
+    background:#3a3a3a;;;
+    padding: 0;
+}
+
+#mainSideNavContainer {
+    position:-webkit-sticky; position:sticky; top:0;
+}
+
+.sideNavTitle {
+    /* position:-webkit-sticky; position:sticky; top:0; */
+}
+
+#topNavCollapse {
+    /* position:-webkit-sticky; position:sticky; top:0; */
+}
+/* 
+#responsiveSideNav {
+    background: white;
+    position: absolute;
+    padding-right: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 45%;
+    z-index: 2;
+} */
+
+
+/* #toggleIcon {
+    display: none;
+    position: absolute;
+    font-size: 3vh;
+    top: 2vh;
+    left: 2vh;
+} */
+
+/* #responsiveToggleIconContainer {
+    position: relative;
+    top: 1vh;
+    left: 1vh;
+}
+
+#responsiveToggleIcon {
+    font-size: 4vh;
+}
+
+#toggleIconColor {
+    color: blue;
+} */
+
+.sideNavTitle {
+    background:#3a3a3a;
+    color: white;
+    border-bottom: black 1px solid; 
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.sideNavHoverHome, .sideNavHoverProfile, .sideNavHoverProjects, .sideNavHoverSkills, .sideNavHoverContact {
+    color: white;
+    width: 100%;
+}
+
+.sideNavHoverHome {
+    border-left: solid #eca287 3px;
+}
+
+.sideNavHoverProfile {
+  border-left: solid #c4ef9d 3px;
+}
+
+.sideNavHoverProjects {
+    border-left: solid #d4b9fc 3px;
+}
+
+.sideNavHoverSkills {
+    border-left: solid #c9ea95 3px;
+}
+
+.sideNavHoverContact {
+    border-left: solid #eca287 3px;
+}
+
+
+.sideNavHoverHome:hover {
+    background: #eca287;
+}
+
+.sideNavHoverProfile:hover {
+    background: #c4ef9d;
+}
+
+.sideNavHoverProjects:hover {
+    background: #d4b9fc;
+}
+
+.sideNavHoverSkills:hover {
+    background: #c9ea95;
+}
+
+.sideNavHoverContact:hover {
+    background: #eca287;
+}
+
+
+.sideNavHover:hover {
+    border-left: solid blue 3px;
+    background: #FAFAFA;
+}
+
+.sideNavIcon {
+    display: inline;
+    margin: 0 2vh 0 1vh;
+    font-size: 3vh;
+}
+
+.sideNavText {
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.sideNavText, .sideNavIcon {
+    color: white;
+}
+
+.nameText {
+    font-weight: bolder;
+    font-size: 4vh;
+    margin: 0;
+    /* margin: 5px;
+    display: inline; */
+}
+
+.titleText {
+    font-weight: bold;
+    font-size: 2vh;
+    margin: 0;
+}
+
+
+.responsiveSideNavHover:hover {
+    padding: 1vh 0 1vh 0;
+}
+
+.responsiveSideNavHover:hover {
+    /* border-left: solid blue 3px; */
+    background: #7b7b7b3a;
+}
+
+
+.responsiveSideNavIcon {
+    display: inline;
+    margin: 0 2vh 0 2vh;
+    font-size: 4vh;
+}
+
+
+
+/* NAVIGATION BUTTONS */
+
+.homeResponsiveSideNavHoverHome {
+    border-left: solid #eca287 3px;
+}
+
+.homeResponsiveSideNavHoverProfile {
+    border-left: solid #c4ef9d 3px;
+}
+
+.homeResponsiveSideNavHoverProjects {
+    border-left: solid #d4b9fc 3px;
+}
+
+.homeResponsiveSideNavHoverSkills {
+    border-left: solid #c9ea95 3px;
+}
+
+.homeResponsiveSideNavHoverContact {
+    border-left: solid #eca287 3px;
+}
+
+/* HOVER NAVIGATION BUTTONS */
+
+.homeResponsiveSideNavHoverHome:hover {
+    background: #eca287;
+}
+
+.homeResponsiveSideNavHoverProfile:hover {
+    background: #c4ef9d;
+}
+
+.homeResponsiveSideNavHoverProjects:hover {
+    background: #d4b9fc;
+}
+
+.homeResponsiveSideNavHoverSkills:hover {
+    background: #c9ea95;
+}
+
+.homeResponsiveSideNavHoverContact:hover {
+    background: #eca287;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    #mainSideNavContainer {
+        display: none;
+    }
+
+    .sideNavMainContainer {
+        display: none;
+        background:#3a3a3a;
+       
+    }
+
+    #toggleIcon {
+        display: inline;
+    }
+
+}
+
+
+
+
+
+
+
+
+    

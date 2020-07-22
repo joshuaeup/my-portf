@@ -1,0 +1,68 @@
+#homeResponsiveTopNav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    /* background: #6bbaa7; */
+    /* opacity: 0.9; */
+}
+
+
+.homeResponsiveTopNavHoverHome, .homeResponsiveTopNavHoverProfile, .homeResponsiveTopNavHoverProjects, .homeResponsiveTopNavHoverSkills, .homeResponsiveTopNavHoverContact {
+    padding: 1vh;
+    display: inline;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    background: #3a3a3a;
+    color: white;
+    /* border-right: solid white 3px; */
+    /* text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; */
+    /* opacity: 0.9; */
+    width: 100%;
+}
+
+/* NAVIGATION BUTTONS */
+
+.homeResponsiveTopNavHoverHome {
+    border-top: solid #eca287 3px;
+}
+
+.homeResponsiveTopNavHoverProfile {
+    border-top: solid #c4ef9d 3px;
+}
+
+.homeResponsiveTopNavHoverProjects {
+    border-top: solid #d4b9fc 3px;
+}
+
+.homeResponsiveTopNavHoverSkills {
+    border-top: solid #c9ea95 3px;
+}
+
+.homeResponsiveTopNavHoverContact {
+    border-top: solid #eca287 3px;
+}
+
+/* HOVER NAVIGATION BUTTONS */
+
+.homeResponsiveTopNavHoverHome:hover {
+    background: #eca287;
+}
+
+.homeResponsiveTopNavHoverProfile:hover {
+    background: #c4ef9d;
+}
+
+.homeResponsiveTopNavHoverProjects:hover {
+    background: #d4b9fc;
+}
+
+.homeResponsiveTopNavHoverSkills:hover {
+    background: #c9ea95;
+}
+
+.homeResponsiveTopNavHoverContact:hover {
+    background: #eca287;
+}

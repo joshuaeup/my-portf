@@ -1,0 +1,14 @@
+.socialIcon, .directIcon {
+    margin-top: 1vh;
+    color: white;
+    
+}
+
+.directIcon {
+    padding-right: 1vh;
+    font-size: 4vh;
+}
+
+.contactInfo {
+    padding-top: 2vh;
+}

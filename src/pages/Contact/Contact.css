@@ -1,0 +1,189 @@
+#topOfContactCol {
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+#topContactContainer {
+    height: auto;
+}
+
+
+.bioScroll {
+}
+
+#contactPageRightCol {
+    padding-top: 10vh;
+}
+
+
+#contactPageImgLeft {
+    /* opacity: 0.7; */
+    height: 100%;
+    width: 100%;
+}
+
+#contactPageTitle {
+    margin: 2vh 0 6vh 0;
+}
+
+#contactPageIcon {
+    padding: 4vh;
+    height: 100%;
+    width: 100%;
+}
+
+#contactPageImgRight {
+    /* margin-top: 3vh; */
+    height: 40vh;
+    width: auto;
+}
+
+#contactPageImgRight {
+    -webkit-animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+
+#contactPageImgLeft, #contactPageImgRight {
+    z-index: 1;
+}
+
+#contactRow {
+    height: auto;
+    padding: 6vh 12vw 6vh 12vw;
+}
+
+.contactCol {
+    background: white;
+    padding: 0;
+    height: 80vh;
+}
+
+#mainFormContainer {
+    overflow-y: scroll;
+    padding: 2vh 7vh 5vh 7vh;
+}
+
+#formTitle {
+    font-size: 3vh;
+    margin: 4vh 0 4vh 0;
+}
+
+.customFormRow {
+    width: auto;
+}
+
+.formLabel {
+    font-size: 2vh;
+    color: black;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+
+.formLabel, .formInputContainer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.formFields {
+    background: white;
+    width: 100%;
+    margin: 0;
+    padding: 1vh;
+    border: solid rgb(214, 214, 214) 1px;
+}
+
+
+.formFieldContainer {
+    margin: 1vh 0 1vh 0;
+    width: 100%;
+}
+
+
+#formSubmitBtn {
+    font-size: 2vh;
+    padding: 1vh;
+    width: auto;
+    border-radius: 3%;
+}
+
+
+
+@media only screen and (max-width: 563px) {
+    .contactCol {
+        height: auto;
+    }
+}
+
+
+#contactContentOnImg {
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.281); */
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    padding: 20vh 6vh 5vh 6vh;
+    color: white;
+}
+
+
+.contentOnImgTitle {
+    display: inline;
+    font-size: 3vh;
+    font-weight: bolder;
+    margin: auto;
+    text-align: left;
+}
+
+.contentOnImgText {
+    color: black;
+    font-size: 2vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1vh;
+    margin-left: 0;
+    margin-bottom: 5vh;
+    /* height: 1vh; */
+    display: block;
+}
+
+.contentOnImgIcon {
+    font-size: 2vh;
+    margin-right: 2vh;
+    display: inline;
+    vertical-align: center;
+}
+
+
+@media only screen and (max-width: 991px) {
+    #contactRow {
+        padding: 6vh 25vw 6vh 25vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #contactRow {
+        padding: 6vh 18vw 6vh 18vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #contactRow {
+        padding: 6vh 12vw 6vh 12vw;
+    }
+
+    #contactContentOnImg {
+        padding: 15vh 6vh 5vh 2vh;
+    }
+    
+}

@@ -1,0 +1,78 @@
+#responsiveTopNav {
+    display: none;
+    z-index: 2;
+}
+
+.responsiveTopNavHoverHome, .responsiveTopNavHoverProfile, .responsiveTopNavHoverProjects, .responsiveTopNavHoverSkills, .responsiveTopNavHoverContact {
+    padding: 1vh;
+    display: none;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    background: #3a3a3a;
+    /* border-right: solid white 3px; */
+    color: white;
+    /* opacity: 0.9; */
+    width: 100%;
+}
+
+/* NAVIGATION BUTTONS */
+
+.responsiveTopNavHoverHome {
+    border-top: solid #eca287 3px;
+}
+
+.responsiveTopNavHoverProfile {
+    border-top: solid #c4ef9d 3px;
+}
+
+.responsiveTopNavHoverProjects {
+    border-top: solid #d4b9fc 3px;
+}
+
+.responsiveTopNavHoverSkills {
+    border-top: solid #c9ea95 3px;
+}
+
+.responsiveTopNavHoverContact {
+    border-top: solid #eca287 3px;
+}
+
+/* HOVER NAVIGATION BUTTONS */
+
+.responsiveTopNavHoverHome:hover {
+    background: #eca287;
+}
+
+.responsiveTopNavHoverProfile:hover {
+    background: #c4ef9d;
+}
+
+.responsiveTopNavHoverProjects:hover {
+    background: #d4b9fc;
+}
+
+.responsiveTopNavHoverSkills:hover {
+    background: #c9ea95;
+}
+
+.responsiveTopNavHoverContact:hover {
+    background: #eca287;
+}
+
+.topNavText {
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.topNavText:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .responsiveTopNavHoverHome, .responsiveTopNavHoverProfile, .responsiveTopNavHoverProjects, .responsiveTopNavHoverSkills, .responsiveTopNavHoverContact {
+        display: inline;
+    }
+
+}
