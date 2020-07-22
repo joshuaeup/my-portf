@@ -46,13 +46,13 @@ class App extends React.Component {
 
   render() {
       return (
-        <HashRouter basename="/my-port/">
+        <HashRouter basename="/">
           <div>
             <Switch>
               <Route exact path="/" component={Home} />
-              {/* <Route exact path="/bio" component={Bio} /> */}
+              <Route exact path="/bio" component={Bio} />
               {/* <Route exact path={process.env.PUBLIC_URL + "/bio"} component={Bio} /> */}
-              <Route exact path={process.env.PUBLIC_URL + "/bio"} component={Bio} />
+              {/* <Route exact path={process.env.PUBLIC_URL + "/bio"} component={Bio} /> */}
               <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/portfolio/mock-one" component={mockOne} />
               <Route exact path="/portfolio/valweb" component={valWeb} />
