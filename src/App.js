@@ -46,7 +46,7 @@ class App extends React.Component {
 
   render() {
       return (
-        <HashRouter basename="/">
+        <HashRouter basename="/my-port/">
           <div>
             <Switch>
               <Route exact path="/" component={Home} />
