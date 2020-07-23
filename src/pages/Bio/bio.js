@@ -69,7 +69,7 @@ class Bio extends React.Component {
         },
         {
           icon: "gamepad",
-          todo: "Play Video Games"
+          todo: "Video Games"
         },
         {
           icon: "utensils",

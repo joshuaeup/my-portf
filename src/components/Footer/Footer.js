@@ -19,19 +19,19 @@ class Footer extends React.Component {
                 </div>
                 
                 <div className="text-center text-md-center">
-                    <a className="fb-ic" href="https://github.com/joshuaeup">
+                    <a className="fb-ic customFooterFont" href="https://github.com/joshuaeup">
                         <i className="fab fa-github white-text mr-4"> </i>
                     </a>
-                    <a className="tw-ic" href="https://codepen.io/joshuaeup">
+                    <a className="tw-ic customFooterFont" href="https://codepen.io/joshuaeup">
                         <i className="fab fa-codepen white-text mr-4"> </i>
                     </a>
-                    <a className="gplus-ic" href="https://www.instagram.com/joshuaeup/">
+                    <a className="gplus-ic customFooterFont" href="https://www.instagram.com/joshuaeup/">
                         <i className="fas fa-hashtag white-text mr-4"> </i>
                     </a>
-                    <a className="li-ic" href="https://www.linkedin.com/in/joshua-proctor/">
+                    <a className="li-ic customFooterFont" href="https://www.linkedin.com/in/joshua-proctor/">
                         <i className="fab fa-linkedin-in white-text mr-4"> </i>
                     </a>
-                    <a className="ins-ic" href="https://www.instagram.com/jcode10/">
+                    <a className="ins-ic customFooterFont" href="https://www.instagram.com/jcode10/">
                         <i className="fab fa-instagram white-text"> </i>
                     </a>
                 <div id="contactFooterBtnContainer">
