@@ -59,9 +59,9 @@ class Languages extends React.Component {
           <ResTopNav />
             <div id="skillsMainContainer">
               <div className="row" >
-                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   <div className="skillsHeader d-flex justify-content-between">
-                    <h1 className="skillsHeaderTitle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Javascript</h1>
+                    <h1 className="skillsHeaderTitle">Javascript</h1>
                     <i className="fa fa-desktop experienceTitleIcon" aria-hidden="true"></i>
                   </div>
                   <hr></hr>
@@ -80,9 +80,9 @@ class Languages extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" >
+                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                   <div className="skillsHeader d-flex justify-content-between">
-                    <h1 className="skillsHeaderTitle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">HTML</h1>
+                    <h1 className="skillsHeaderTitle">HTML</h1>
                     <i className="fa fa-pencil experienceTitleIcon" aria-hidden="true"></i>
                   </div>
                   <hr></hr>
@@ -101,9 +101,9 @@ class Languages extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" >
+                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                   <div className="skillsHeader d-flex justify-content-between">
-                    <h1 className="skillsHeaderTitle" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">CSS</h1>
+                    <h1 className="skillsHeaderTitle">CSS</h1>
                     <i className="fa fa-pencil experienceTitleIcon" aria-hidden="true"></i>
                   </div>
                   <hr></hr>
@@ -122,9 +122,9 @@ class Languages extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" >
+                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                   <div className="skillsHeader d-flex justify-content-between">
-                    <h1 className="skillsHeaderTitle" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Backend</h1>
+                    <h1 className="skillsHeaderTitle">Backend</h1>
                     <i className="fa fa-desktop experienceTitleIcon" aria-hidden="true"></i>
                   </div>
                   <hr></hr>
@@ -143,9 +143,9 @@ class Languages extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" >
+                <div className="skillsInnerContainer" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                   <div className="skillsHeader d-flex justify-content-between">
-                    <h1 className="skillsHeaderTitle" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Other</h1>
+                    <h1 className="skillsHeaderTitle">Other</h1>
                     <i className="fa fa-desktop experienceTitleIcon" aria-hidden="true"></i>
                   </div>
                   <hr></hr>

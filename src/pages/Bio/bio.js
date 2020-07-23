@@ -12,7 +12,6 @@ import profileFive from "..//../profileImages/profileFive.JPG";
 import profileSix from "../../profileImages/profileSix.JPG";
 import profileBrain from "../../profileImages/profileBrain.JPG";
 import profileClock from "../../profileImages/profileClock.JPG";
-import resume from "../../assets/resume.jpg";
 require("./Bio.css");
 
 class Bio extends React.Component {
@@ -149,7 +148,6 @@ render() {
             <div id="mainBioContainer">
               <div id="topBioContainer">
                 <div className={`row d-flex justify-content-center ${this.state.swapPositions}`} >
-                  {/* <div className="col-sm-12 col-md-6 col-lg-6 order-sm-2 order-md-1 order-lg-1" > */}
                   <div className={`col-lg-${this.state.adjustCol} resonsiveCol`} >
                     <div data-aos="fade-right" id="bioTextContainer">
                       <h2 className="globalTextFont ">About Me</h2>
@@ -247,26 +245,7 @@ render() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="bioResumeContainer d-flex justify-content-center">
-                <div className="row resumeRow">
-                  <div className="resumeInnerContainer">
-                    <div className="skillsHeader d-flex justify-content-between">
-                      <h1 className="glowTitle" data-toggle="collapse" data-target="#collapseResume" aria-expanded="true" aria-controls="collapseResume">Resume</h1>
-                      <i className="fa fa-desktop experienceTitleIcon" aria-hidden="true"></i>
-                    </div>
-                    <hr></hr>
-                    <div className={`skillsBody collapse ${this.state.collapse}`} id="collapseResume" data-parent="#accordion">
-                      <div className="row">
-                          <div className="col-sm-12 col-md-12 col-lg-12">
-                            <img id="resumeImg" alt="resume" src={resume}/>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
+              </div>              
             <Footer/>
             </div>
           </div>

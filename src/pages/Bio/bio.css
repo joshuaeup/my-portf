@@ -172,6 +172,11 @@
 
 }
 
+.customModalContent {
+    background-color: #fff;
+    padding: 2vh;
+}
+
 
 
 @media only screen and (max-width: 960px) {
