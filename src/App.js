@@ -11,7 +11,7 @@ import mockOne from "./subPages/mockOne";
 import valWeb from "./subPages/valWeb";
 import tipCalculator from "./subPages/tipCalculator";
 import giphy from "./subPages/giphy";
-
+import gateWay from "./subPages/gateWay";
 import 'aos/dist/aos.css';
 import './App.css';
 
@@ -56,8 +56,9 @@ class App extends React.Component {
               <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/portfolio/mock-one" component={mockOne} />
               <Route exact path="/portfolio/valweb" component={valWeb} />
-              <Route exact path="/portfolio/tipCalculator" component={tipCalculator} />
+              <Route exact path="/portfolio/tipcalculator" component={tipCalculator} />
               <Route extact path="/portfolio/giphy" component={giphy} />
+              <Route extact path="/portfolio/gateway" component={gateWay} />
               <Route exact path="/experience" component={Experience} />
               <Route exact path="/contact" component={Contact} />
               <Redirect exact from="/" component={NoMatch} />

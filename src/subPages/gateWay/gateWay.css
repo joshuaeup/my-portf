@@ -1,0 +1,112 @@
+.subPagesMainContainer {
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.subPageSubContainerWhite {
+    background: white;
+    padding: 18vh 23vh 12vh 23vh;
+    border-bottom: 1px solid rgba(199, 198, 198, 0.637);
+}
+
+.subPageTopTitle {
+    font-size: 6vh;
+    display: block;
+}
+
+.textBodyContainer {
+    padding: 0 20vh 5vh 20vh;
+}
+
+.subPageTitle {
+    font-weight: 100;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+    font-size: 4vh;
+}
+
+.subPageDate {
+    font-size: 17px;
+    color: rgb(150, 150, 150);
+}
+
+.subPageSecondaryTitle {
+    text-align: center;
+    font-weight: 100;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 4vh;
+}
+
+.subPageBody {
+    color: rgb(73, 71, 71);
+    font-size: 23px;
+    display: block;
+}
+
+.subPageImg {
+    height: 40vh;
+    width: auto;
+    border-radius: 25%;
+}
+
+.subPageSubContainerGray {
+    border-top: 1px solid rgba(199, 198, 198, 0.637);
+    border-bottom: 1px solid rgba(199, 198, 198, 0.637);
+    padding: 18vh 23vh 12vh 23vh;
+    background: #fafafa;;
+}
+
+.subPageWideImg, .subPageMobileImg {
+    height: 100%;
+    width: 100%;
+}
+
+.subPageTopGrid {
+    height: 40vh;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.subPageBottomGrid {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1142px) {
+    .subPageSubContainerWhite, .subPageSubContainerGray {
+        padding: 8vh 18vh 12vh 18vh;
+    }
+
+    .textBodyContainer {
+        padding: 0 3vh 5vh 3vh;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .subPageTopGrid {
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 630px) {
+    .subPageSubContainerWhite, .subPageSubContainerGray {
+        padding: 8vh 9vh 12vh 9vh;
+    }
+    
+    .textBodyContainer {
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .subPageSubContainerWhite, .subPageSubContainerGray {
+        padding: 8vh 5vh 12vh 5vh;
+    }
+
+}
+

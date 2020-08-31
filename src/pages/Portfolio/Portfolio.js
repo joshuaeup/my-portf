@@ -12,6 +12,8 @@ import ValWeb from "../../subPages/valWeb/valWebAssets/valWebBanner.PNG";
 import TipCalculator from "../../subPages/tipCalculator/tipCalculatorAssets/tipCalculatorBanner.PNG";
 // Giphy
 import Giphy from "../../subPages/giphy/giphyAssets/giphyBanner.PNG";
+// GateWay
+import GateWay from "../../subPages/gateWay/GateWayAssets/gateWayBanner.PNG";
 
 require("./Portfolio.css");
 
@@ -43,6 +45,12 @@ class Portfolio extends React.Component {
           name: "Giphy",
           image: Giphy,
           type: "Personal (IOS)"
+        },
+        {
+          title: "gateway",
+          name: "GateWay",
+          image: GateWay,
+          type: "Fellowship (Web)"
         }
       ],
       opacity: "1",
