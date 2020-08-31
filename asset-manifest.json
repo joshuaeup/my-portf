@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/my-port/static/css/main.c66f14de.chunk.css",
-    "main.js": "/my-port/static/js/main.35dca5a7.chunk.js",
-    "main.js.map": "/my-port/static/js/main.35dca5a7.chunk.js.map",
+    "main.css": "/my-port/static/css/main.709ba3bc.chunk.css",
+    "main.js": "/my-port/static/js/main.5e598433.chunk.js",
+    "main.js.map": "/my-port/static/js/main.5e598433.chunk.js.map",
     "runtime-main.js": "/my-port/static/js/runtime-main.98ba209a.js",
     "runtime-main.js.map": "/my-port/static/js/runtime-main.98ba209a.js.map",
     "static/css/2.4707e12a.chunk.css": "/my-port/static/css/2.4707e12a.chunk.css",
-    "static/js/2.39ddfa06.chunk.js": "/my-port/static/js/2.39ddfa06.chunk.js",
-    "static/js/2.39ddfa06.chunk.js.map": "/my-port/static/js/2.39ddfa06.chunk.js.map",
+    "static/js/2.b4fb6f15.chunk.js": "/my-port/static/js/2.b4fb6f15.chunk.js",
+    "static/js/2.b4fb6f15.chunk.js.map": "/my-port/static/js/2.b4fb6f15.chunk.js.map",
     "index.html": "/my-port/index.html",
-    "precache-manifest.b2b38b85464d952cc719c78d39f905c2.js": "/my-port/precache-manifest.b2b38b85464d952cc719c78d39f905c2.js",
+    "precache-manifest.84ae7da32d0eda04f54f87f36c297e31.js": "/my-port/precache-manifest.84ae7da32d0eda04f54f87f36c297e31.js",
     "service-worker.js": "/my-port/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/my-port/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.c66f14de.chunk.css.map": "/my-port/static/css/main.c66f14de.chunk.css.map",
-    "static/js/2.39ddfa06.chunk.js.LICENSE.txt": "/my-port/static/js/2.39ddfa06.chunk.js.LICENSE.txt",
+    "static/css/main.709ba3bc.chunk.css.map": "/my-port/static/css/main.709ba3bc.chunk.css.map",
+    "static/js/2.b4fb6f15.chunk.js.LICENSE.txt": "/my-port/static/js/2.b4fb6f15.chunk.js.LICENSE.txt",
     "static/media/bioPhoto3.JPG": "/my-port/static/media/bioPhoto3.5a24d915.JPG",
+    "static/media/gateWayBanner.PNG": "/my-port/static/media/gateWayBanner.b45f29aa.PNG",
+    "static/media/gateWaySub1.PNG": "/my-port/static/media/gateWaySub1.224bb1e4.PNG",
+    "static/media/gateWaySub2.PNG": "/my-port/static/media/gateWaySub2.3ee67637.PNG",
+    "static/media/gateWaySubBottom.PNG": "/my-port/static/media/gateWaySubBottom.01cbcb44.PNG",
     "static/media/giphy1.PNG": "/my-port/static/media/giphy1.7153b9c6.PNG",
     "static/media/giphy2.PNG": "/my-port/static/media/giphy2.10c96e01.PNG",
     "static/media/giphy3.PNG": "/my-port/static/media/giphy3.3b317081.PNG",
@@ -49,8 +53,8 @@
   "entrypoints": [
     "static/js/runtime-main.98ba209a.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.39ddfa06.chunk.js",
-    "static/css/main.c66f14de.chunk.css",
-    "static/js/main.35dca5a7.chunk.js"
+    "static/js/2.b4fb6f15.chunk.js",
+    "static/css/main.709ba3bc.chunk.css",
+    "static/js/main.5e598433.chunk.js"
   ]
 }
