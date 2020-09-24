@@ -151,8 +151,8 @@ render() {
                   <div className={`col-lg-${this.state.adjustCol} resonsiveCol`} >
                     <div data-aos="fade-right" id="bioTextContainer">
                       <h2 className="globalTextFont ">About Me</h2>
-                      <p className="globalTextFont">I'm a Full Stack Web Developer</p>
-                      <p className="globalTextFont">I began programming when I was 15 years old when my father introduced me to a wide range of advancements in the IT field. I have a passion to solve puzzles and create solutions; programming gives me that ability. My goal is not to watch the future, form before my eyes, but to shape it for others.
+                      <p className="globalTextFont">I'm a Software Developer</p>
+                      <p className="globalTextFont">I began programming when I was 15 years old when my father introduced me to a wide range of advancements in the IT field. I have a passion to solve puzzles and create solutions; programming gives me that ability. My goal is not to watch the future form before my eyes, but to shape it for others.
                       </p>
                       <div className="row py-4 d-flex align-items-start">
                         <div className="col-md-6 col-lg-7 text-center text-md-left">
