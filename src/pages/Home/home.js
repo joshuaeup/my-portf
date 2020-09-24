@@ -32,7 +32,7 @@ class Home extends React.Component {
             <div className="d-flex justify-content-center specContainer d-flex flex-column">
               <div className="col-12 customBox">
                 <h1 className="center homeFont">Joshua Proctor</h1>
-                <h1 className="center homeFont">Full Stack Web Developer</h1>
+                <h1 className="center homeFont">Software Developer</h1>
               </div>
               <hr />
             </div>
